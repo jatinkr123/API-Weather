@@ -65,6 +65,13 @@ form button:hover{
 
 }
 
+.output{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
 .card{
     display: flex;
     flex-direction: row;
@@ -72,7 +79,7 @@ form button:hover{
     align-items: center;
     font-size: 2rem;
     background-color: #0096c7;
-    width: 100%;
+    width: 25%;
     border-radius: 3rem;
     transition: all;
     transition-duration: 0.3s;
@@ -85,7 +92,6 @@ form button:hover{
     padding: 1rem;
     /* background-color: white; */
     border: 2px solid white;
-    height: 10vh;
     width:30%;
     border-radius: 100%;
 }
@@ -94,12 +100,7 @@ form button:hover{
     transform: scale(1.05);
 }
 
-.output{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
+
 
 .cardext{
     background-color: #fcca46;
@@ -128,11 +129,15 @@ form button:hover{
     }
 
     .output{
-        width: 80%;
+        width: 100%;
     }
 
     .cardext{
         width: 80%;
+    }
+
+    .card{
+        width: 60%;
     }
 
     .card img{

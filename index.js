@@ -8,7 +8,7 @@ async function fetchData(location){
 
     const { latitude,longitude,resolvedAddress,address,timezone,currentConditions  } = data;
     
-        div.innerHTML +=`
+        div.innerHTML =`
     <div class="card">        
         <img src="./image/${currentConditions.icon}.png" alt='no pic' id="photu">
         <div class="cardext">
